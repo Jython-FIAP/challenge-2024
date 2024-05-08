@@ -1,0 +1,68 @@
+:root {
+    --font-body: "Mirza", serif;
+    --color-black: #000;
+    --color-darkblue: #0038FF;
+    --color-white: #fff;
+    --transition: .5s;
+
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: var(--font-body);
+}
+
+
+ul {
+    list-style: none;
+} 
+
+a {
+    text-decoration: none;
+    color: var(--color-black);
+    transition: var(--transition); 
+
+} a:hover {
+    color: var(--color-darkblue);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header-page {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 3rem;
+}
+
+.header-page img {
+    max-width: 150px;
+    cursor: pointer;
+}
+
+.header-page nav ul {
+    display: flex;
+    gap: 30px;
+}
+
+.header-page nav ul li {
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.btn-login {
+    color: #fff;
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 8px 15px;
+    transition: background-color var(--transition);
+    background-color: var(--color-darkblue);
+} .btn-login:hover {
+    background-color: var(--color-white);
+    color: var(--color-darkblue);
+}
