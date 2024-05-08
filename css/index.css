@@ -109,13 +109,45 @@ a {
     color: var(--color-blue); 
 } 
 
-/* ÍNICIO CONTEÚDO 02  */
+/* MEXENDO COM CARDS */
 .card-pai {
     height: 200px;
 
     display: flex;
     align-items: center;
     justify-content: space-around;
+}
+
+.card-filho {
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.card-filho:hover {
+    transform: scale(1.1);
+}
+
+.card-filho::before {
+    content: attr(data-desc);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.card-filho:hover::before {
+    opacity: 1;
 }
 
 /* FIM CONTEÚDO 02  */
