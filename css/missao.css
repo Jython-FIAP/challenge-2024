@@ -1,7 +1,8 @@
 :root {
     --font-body: "Mirza", serif;
     --color-black: #000;
-    --color-darkblue: #0038FF;
+    --color-blue: #0038FF;
+    --color-darkblue: #00005A;
     --color-white: #fff;
     --transition: .5s;
 
@@ -9,6 +10,7 @@
 
 * {
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
     font-family: var(--font-body);
 }
@@ -24,8 +26,10 @@ a {
     transition: var(--transition); 
 
 } a:hover {
-    color: var(--color-darkblue);
+    color: var(--color-blue);
 }
+
+/*  CABEÇALHO  */ 
 
 .logo {
     display: flex;
@@ -61,8 +65,10 @@ a {
     border-radius: 10px;
     padding: 8px 15px;
     transition: background-color var(--transition);
-    background-color: var(--color-darkblue);
+    background-color: var(--color-blue);
 } .btn-login:hover {
     background-color: var(--color-white);
-    color: var(--color-darkblue);
+    color: var(--color-blue);
 }
+
+/* FIM CABEÇALHO */
