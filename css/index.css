@@ -191,12 +191,16 @@ a {
     font-weight: 600;
     font-size: 4vmin;
 } 
-
 .imagem-pai{
     display: flex;
     align-items: center;
     justify-content: space-between;
-} .imagem-pai a {
-    font-size: 1vh;
-    color: var(--color-white);
+} 
+
+.imagem-filho {
+    position: relative;
+    transition: all 0.3s ease;
+} .imagem-filho:hover {
+    transform: scale(1.1);  
 }
+
