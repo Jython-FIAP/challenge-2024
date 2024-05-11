@@ -72,3 +72,13 @@ a {
 }
 
 /* FIM CABEÇALHO */
+
+/* ÍNICIO CONTEÚDO  */
+
+.conteudo {
+    padding: 10px;
+}
+
+.conteudo p {
+    font-size: 2vmin;
+}
