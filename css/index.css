@@ -201,8 +201,6 @@ p {
 } .saiba-mais p {
     padding: 10px;
     white-space: pre-line   ;
-} .saiba-mais img {
-    height: 350px;
 } 
 
 /* FIM CONTEÚDO 03  */
@@ -210,7 +208,7 @@ p {
 
 /* ÍNICIO NOTÍCIAS  */
 .conteudo-noticias-principal {
-    height: 400px;
+    height: 300px;
     background-color: var(--color-darkblue);
 } .conteudo-noticias a {
     color: var(--color-white);

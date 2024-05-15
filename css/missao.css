@@ -31,6 +31,12 @@ a {
 
 p {
     font-size: 2vmin;
+    margin: 10px;
+}
+
+h2 {
+    font-size: 4vmin;
+    margin: 10px;
 }
 
 
@@ -84,20 +90,10 @@ p {
 /* FIM CABEÇALHO */
 
 /* ÍNICIO CONTEÚDO  */
-.conteudo h2 {
-    font-size: 3vmin;
-    margin: 10px;
-} .conteudo p {
-    margin: 10px;
-}
-
 .conteudo-desafio {
     background-color: var(--color-darkblue);
     color: var(--color-white);
     padding: 10px;
-    white-space: pre-line;
-
-
 } .conteudo-desafio h4 {
     font-size: 3vmin;
 } .conteudo-desafio p {
@@ -149,7 +145,6 @@ p {
 
 /* ÍNICIO RODAPE  */
 .rodape {
-    padding: 2rem 3rem;
     font-size: 1.2rem;
 
 }
