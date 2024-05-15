@@ -29,6 +29,16 @@ a {
     color: var(--color-blue);
 }
 
+p {
+    font-size: 2vmin;
+}
+
+
+.container {
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
 /*  CABEÇALHO  */ 
 
 .logo {
@@ -74,11 +84,72 @@ a {
 /* FIM CABEÇALHO */
 
 /* ÍNICIO CONTEÚDO  */
+.conteudo h2 {
+    font-size: 3vmin;
+    margin: 10px;
+} .conteudo p {
+    margin: 10px;
+}
 
-.conteudo {
+.conteudo-desafio {
+    background-color: var(--color-darkblue);
+    color: var(--color-white);
+    padding: 10px;
+    white-space: pre-line;
+
+
+} .conteudo-desafio h4 {
+    font-size: 3vmin;
+} .conteudo-desafio p {
+    white-space: pre-line;  
+}
+
+.justificativa {
+    font-size: 2vmin;
+    margin: 10px;
     padding: 10px;
 }
 
-.conteudo p {
-    font-size: 2vmin;
+.btn-saiba {
+    margin-left: 40px; 
+    color: #fff;
+    border: 2px solid;
+    border-radius: 20px;
+    padding: 8px 20px;
+    cursor: pointer;
+    background-color: var(--color-white);
+    color: var(--color-blue); 
+} .btn-saiba:hover {
+    background-color: var(--color-darkblue);
+    color: var(--color-white);
+}
+
+.saiba-mais {
+    padding: 2%;
+    margin: 10px 30px auto 30px;
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transform: translateY(-20px);
+    transition: opacity 0.5s, max-height 0.5s, transform 0.5s;
+} .saiba-mais.mostrar {
+    opacity: 1;
+    max-height: 1000px;
+    transform: translateY(0);
+} 
+
+.carrinho {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+/* FIM CONTEÚDO */
+
+/* ÍNICIO RODAPE  */
+.rodape {
+    padding: 2rem 3rem;
+    font-size: 1.2rem;
+
 }

@@ -4,8 +4,6 @@
     --color-blue: #0038FF;
     --color-darkblue: #00005A;
     --color-white: #fff;
-    --color-green: #05FF00;
-    --color-light-green: #A3FFA3;
     --transition: .5s;
 
 }
@@ -246,5 +244,4 @@ p {
 .rodape {
     padding: 30px;
     font-size: 1.2rem;
-
 }
