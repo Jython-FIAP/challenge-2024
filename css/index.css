@@ -82,7 +82,7 @@ p {
 
 .slide-show {
     background-color: aqua;
-    height: 400px;
+    height: 600px;
 }
 
 /* FIM SLIDE-SHOW */
@@ -162,12 +162,16 @@ p {
     margin-left: 40px; 
     color: #fff;
     border: 2px solid;
-    border-radius: 10px;
+    border-radius: 20px;
     padding: 8px 20px;
     cursor: pointer;
     background-color: var(--color-white);
     color: var(--color-blue); 
-} 
+} .btn-saiba:hover {
+    background-color: var(--color-darkblue);
+    color: var(--color-white);
+
+}
 
 .saiba-mais {
     padding: 2%;
@@ -236,3 +240,11 @@ p {
     color: var(--color-white);
 }
 
+/* FIM NOTÍCIAS  */
+
+/* ÍNICIO RODAPÉ  */
+.rodape {
+    padding: 30px;
+    font-size: 1.2rem;
+
+}
