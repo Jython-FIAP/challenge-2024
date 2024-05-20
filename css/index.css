@@ -3,6 +3,7 @@
     --color-black: #000;
     --color-blue: #0038FF;
     --color-darkblue: #00005A;
+    --color-ciano: #1194AC;
     --color-white: #fff;
     --transition: .5s;
 
@@ -78,9 +79,8 @@ p {
 
 /* ÍNICO SLIDE-SHOW */
 
-.slide-show {
-    background-color: aqua;
-    height: 600px;
+.slide-show img {
+    width: 100%;
 }
 
 /* FIM SLIDE-SHOW */
@@ -152,6 +152,7 @@ p {
 .conteudo-principal02 {
     padding: 10px;
     margin-left: 30px;
+    font-size: 1.3rem;
 } .conteudo-principal02 p {
     margin: 10px;
 } 
@@ -203,16 +204,88 @@ p {
     white-space: pre-line   ;
 } 
 
-/* FIM CONTEÚDO 03  */
+/* FIM CONTEÚDO SAIBA MAIS */
 
 
-/* ÍNICIO   */
+/* ÍNICIO PROPAGANDA */
+.propaganda {
+    background-image: url(../img/propaganda.png);
+    background-size: cover;
+    position: relative;
+    height: 600px;
+
+} .propaganda h1 {
+    color: var(--color-ciano);
+    font-size: 4.1rem;
+    padding-top: 200px;
+    margin-left: 50px;
+} .propaganda h4 {
+    color: var(--color-white);
+    font-size: 1.5rem;
+    margin-left: 50px;
+} .propaganda p {
+    color: var(--color-white);
+    margin-left: 50px;
+}
+
+.propaganda-btn {
+    color: var(--color-ciano);
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid;
+    border-radius: 15px;
+    cursor: pointer;
+    background: transparent;
+    margin-left: 50px;
+} .propaganda-btn:hover{
+    background-color: var(--color-ciano);
+    color: var(--color-white);
+}
+
+/* FIM PROPAGANDA  */
+
+/* ÍNICIO CONTEÚDO SUSTENTABILIDADE */
+.sustentabilidade {
+    font-size: 1.3rem;
+    padding: 10px;
+    margin-left: 30px;
+} .sustentabilidade h2 {
+    color: var(--color-darkblue);
+} 
+.sustentabilidade-img {
+    margin-left: 15px;
+}
+.sustentabilidade-btn {
+    background-color: var(--color-darkblue);
+    color: var(--color-white);
+    cursor: pointer;
+    padding: 10px;
+    border: 2px solid;
+    margin-top: 20px;
+}
+
+/* FIM CONTEÚDO SUSTENTABILIDADE */
+
+/* ÍNICIO LINK PÁGINA FÓRMULA E */
+.formula {
+    margin-top: 50px;
+    padding: 10px; 
+    margin-left: 30px;
+} .formula h1 {
+    font-size: 1.9rem;
+    
+} .formula a {
+    color: var(--color-blue);
+    font-weight: 900;
+}
 
 
-/* FIM   */
 
 /* ÍNICIO RODAPÉ  */
 .rodape {
-    padding: 30px;
+    background-color: var(--color-darkblue);
+    color: var(--color-white);
+    padding: 20px;
     font-size: 1.2rem;
+    margin-top: 60px;
 }
