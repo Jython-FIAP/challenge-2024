@@ -159,7 +159,7 @@ p {
 
 .btn-saiba {
     margin-left: 40px; 
-    color: #fff;
+    color: var(--color-white);
     border: 2px solid;
     border-radius: 20px;
     padding: 8px 20px;
@@ -288,4 +288,10 @@ p {
     padding: 20px;
     font-size: 1.2rem;
     margin-top: 60px;
+
+    display: flex;
+    justify-content: space-between;
+} .rodape a {
+    color: var(--color-white);
+    text-decoration: underline;
 }
