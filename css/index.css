@@ -85,7 +85,7 @@ p {
 
 /* FIM SLIDE-SHOW */
 
-/* ÍNICIO CONTEÚDO 01 */
+/* ÍNICIO CONTEÚDO PRINCIPAL */
 .conteudo-principal {
     background-color: var(--color-darkblue);
     color: var(--color-white);
@@ -105,7 +105,7 @@ p {
 }
 
 
-/* MEXENDO COM CARDS */
+/* CONTEÚDO CARDS */
 .card-pai {
     height: 200px;
 
@@ -148,7 +148,7 @@ p {
 
 /* FIM CARDS  */
 
-/* ÍNICIO CONTEÚDO 03  */
+/* ÍNICIO CONTEÚDO SAIBA MAIS  */
 .conteudo-principal02 {
     padding: 10px;
     margin-left: 30px;
@@ -206,37 +206,10 @@ p {
 /* FIM CONTEÚDO 03  */
 
 
-/* ÍNICIO NOTÍCIAS  */
-.conteudo-noticias-principal {
-    height: 300px;
-    background-color: var(--color-darkblue);
-} .conteudo-noticias a {
-    color: var(--color-white);
-    padding: 40px;
+/* ÍNICIO   */
 
-    font-weight: 600;
-    font-size: 4vmin;
-} 
-.imagem-pai{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-} 
 
-.imagem-filho {
-    margin: 20px 0; 
-
-} .imagem-filho img {
-    height: 180px; 
-    display: block; 
-    margin: 0 auto;
-} .imagem-filho p {
-    font-size: 14px;
-    text-align: center;
-    color: var(--color-white);
-}
-
-/* FIM NOTÍCIAS  */
+/* FIM   */
 
 /* ÍNICIO RODAPÉ  */
 .rodape {
