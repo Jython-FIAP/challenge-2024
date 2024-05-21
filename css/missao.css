@@ -96,6 +96,7 @@ h2 {
     padding: 10px;
 } .conteudo-desafio h4 {
     font-size: 3vmin;
+    margin-left: 10px;
 } .conteudo-desafio p {
     white-space: pre-line;  
     padding-top: 20px;

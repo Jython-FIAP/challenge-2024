@@ -29,6 +29,15 @@ a {
     color: var(--color-blue);
 }
 
+p {
+    font-size: 2vmin;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
 /*  CABEÇALHO  */ 
 
 .logo {
@@ -72,3 +81,70 @@ a {
 }
 
 /* FIM CABEÇALHO */
+
+
+/* Banner - Fórmula E */ 
+.banner {
+    background-image: url(../img/banner-formulae.png);
+    background-size: cover;
+    position: relative;
+    height: 600px;
+    color: var(--color-white);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+} .banner h2 {
+    font-size: 5rem;
+} .banner h4 {
+    font-size: 2.2rem;
+} 
+
+/* Conteúdo Principal - Aposta */
+
+.conteudo-principal {
+    background-color: var(--color-darkblue);
+    color: var(--color-white);
+    padding: 10px;
+} .conteudo-principal h2{
+    margin: 10px;
+    font-size: 4vmin;
+} .conteudo-principal h4{
+    margin: 10px;
+    font-size: 2vmin;
+}
+
+.conteudo-principal-aposta {
+    padding: 10px;
+    margin-left: 30px;
+    font-size: 2vmin;
+    padding: 20px; /* aumenta o espaçamento interno para 20px */
+    margin: 20px;   
+} .conteudo-principal-aposta li {
+    margin: 10px 0; /
+}
+.texto-sabia {
+    font-weight: 900;
+    color: var(--color-blue);
+}   
+
+/* Conteúdo de Apostas + Equipes 
+.equipes {
+    background-color: violet;
+    height: 300px;
+}   
+*/
+
+.form-aposta {
+    background-color: #1D4280;
+    color: var(--color-white);
+    border-radius: 5px;
+    padding: 20px;
+
+}
+
+.aposta-equipe {
+    background-color: rgba(136, 182, 255, 0.491);
+}
