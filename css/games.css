@@ -3,8 +3,8 @@
     --color-black: #000;
     --color-blue: #0038FF;
     --color-darkblue: #00005A;
+    --color-ciano: #1194AC;
     --color-white: #fff;
-    --transition: .5s;
 
 }
 
@@ -29,6 +29,9 @@ a {
     color: var(--color-blue);
 }
 
+p {
+    font-size: 2vmin;
+}
 /*  CABEÇALHO  */ 
 
 .logo {
@@ -72,3 +75,84 @@ a {
 }
 
 /* FIM CABEÇALHO */
+
+/* CLASSE JOGO  */
+.jogo {
+    background-color: #afaeae;
+    height: 800px;
+}
+
+
+/* Conteúdo Tutorial */
+.jogo-tutorial {
+    background-color: var(--color-darkblue);
+    color: var(--color-white);
+    padding: 10px;
+} .jogo-tutorial h2 {
+    margin: 10px;
+    font-size: 4vmin;
+    margin-left: 30px;
+
+} .jogo-tutorial p {
+    margin: 10px;
+    margin-left: 30px;
+
+}
+
+/* Conteúdo Criação do Jogo */
+.conteudo-criacao {
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+} .conteudo-criacao h2 {
+    font-size: 1.9rem;
+} .conteudo-criacao p {
+    white-space: pre-line;
+}
+
+/* Ínicio Propaganda */
+.propaganda {
+    background-image: url(../img/propaganda.png);
+    background-size: cover;
+    position: relative;
+    height: 600px;
+
+} .propaganda h1 {
+    color: var(--color-ciano);
+    font-size: 4.1rem;
+    padding-top: 200px;
+    margin-left: 50px;
+} .propaganda h4 {
+    color: var(--color-white);
+    font-size: 1.5rem;
+    margin-left: 50px;
+} .propaganda p {
+    color: var(--color-white);
+    margin-left: 50px;
+}
+
+.propaganda-btn {
+    color: var(--color-ciano);
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid;
+    border-radius: 15px;
+    cursor: pointer;
+    background: transparent;
+    margin-left: 50px;
+} .propaganda-btn:hover{
+    background-color: var(--color-ciano);
+    color: var(--color-white);
+}
+
+/* Rodapé */
+.rodape {
+    background-color: var(--color-darkblue);
+    color: var(--color-white);
+    padding: 20px;
+    font-size: 1.2rem;
+    margin-top: 60px;
+
+    display: flex;
+    justify-content: space-between;
+} 
