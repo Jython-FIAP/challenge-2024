@@ -19,14 +19,18 @@
             <img src="/img/logo-formulae02.png" alt="Logo Formula E, versão02">
 
             <h2> Seja Bem-Vindo de volta!</h2>
-                <form>
+                <form class="form-login">
                     <input class="login-input" type="email" id="email" name="email" required placeholder="Digite seu E-mail: "><br>
                     <input class="login-input" type="password" id="password" name="password" required placeholder="Digite sua senha: "><br>
+                        <input type="checkbox" id="remember" name="remember">
+                        <label for="remember">Lembrar minha senha</label>
 
                     <a href="#">Esqueceu sua senha?</a><br>
                     <p> Não possui uma conta? <a href="">  Crie uma agora!</a></p>
 
-                    <input type="submit" value="Continuar">
+                    <div> 
+                        <button class="btn-enviar" type="submit">Entrar</button>
+                    </div>
                 </form>
         </section>
 
@@ -35,6 +39,6 @@
 
 
 
-    
+    <script src="login.js"></script>
 </body>
 </html>
