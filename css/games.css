@@ -1,0 +1,158 @@
+:root {
+    --font-body: "Mirza", serif;
+    --color-black: #000;
+    --color-blue: #0038FF;
+    --color-darkblue: #00005A;
+    --color-ciano: #1194AC;
+    --color-white: #fff;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-body);
+}
+
+
+ul {
+    list-style: none;
+} 
+
+a {
+    text-decoration: none;
+    color: var(--color-black);
+    transition: var(--transition); 
+
+} a:hover {
+    color: var(--color-blue);
+}
+
+p {
+    font-size: 2vmin;
+}
+/*  CABEÇALHO  */ 
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header-page {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 3rem;
+}
+
+.header-page img {
+    max-width: 150px;
+    cursor: pointer;
+}
+
+.header-page nav ul {
+    display: flex;
+    gap: 30px;
+}
+
+.header-page nav ul li {
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.btn-login {
+    color: #fff;
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 8px 15px;
+    transition: background-color var(--transition);
+    background-color: var(--color-blue);
+} .btn-login:hover {
+    background-color: var(--color-white);
+    color: var(--color-blue);
+}
+
+/* FIM CABEÇALHO */
+
+/* CLASSE JOGO  */
+.jogo {
+    background-color: #afaeae;
+    height: 800px;
+}
+
+
+/* Conteúdo Tutorial */
+.jogo-tutorial {
+    background-color: var(--color-darkblue);
+    color: var(--color-white);
+    padding: 10px;
+} .jogo-tutorial h2 {
+    margin: 10px;
+    font-size: 4vmin;
+    margin-left: 30px;
+
+} .jogo-tutorial p {
+    margin: 10px;
+    margin-left: 30px;
+
+}
+
+/* Conteúdo Criação do Jogo */
+.conteudo-criacao {
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+} .conteudo-criacao h2 {
+    font-size: 1.9rem;
+} .conteudo-criacao p {
+    white-space: pre-line;
+}
+
+/* Ínicio Propaganda */
+.propaganda {
+    background-image: url(../img/propaganda.png);
+    background-size: cover;
+    position: relative;
+    height: 600px;
+
+} .propaganda h1 {
+    color: var(--color-ciano);
+    font-size: 4.1rem;
+    padding-top: 200px;
+    margin-left: 50px;
+} .propaganda h4 {
+    color: var(--color-white);
+    font-size: 1.5rem;
+    margin-left: 50px;
+} .propaganda p {
+    color: var(--color-white);
+    margin-left: 50px;
+}
+
+.propaganda-btn {
+    color: var(--color-ciano);
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid;
+    border-radius: 15px;
+    cursor: pointer;
+    background: transparent;
+    margin-left: 50px;
+} .propaganda-btn:hover{
+    background-color: var(--color-ciano);
+    color: var(--color-white);
+}
+
+/* Rodapé */
+.rodape {
+    background-color: var(--color-darkblue);
+    color: var(--color-white);
+    padding: 20px;
+    font-size: 1.2rem;
+    margin-top: 60px;
+
+    display: flex;
+    justify-content: space-between;
+} 
