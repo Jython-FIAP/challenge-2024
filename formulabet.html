@@ -29,7 +29,7 @@
                 </ul>
             </nav>
         </div>
-        <button class="btn-login">LOGIN</button>
+        <a href="./login/login.html"> <button class="btn-login">LOGIN</button> </a>
     </header>
 
     <div class="container"> 
@@ -59,10 +59,12 @@
             </ol>
         </section>
 
+        <!-- Equipes 
         <section class="equipes"> 
                 <h1> Equipes 2023 - 2024 </h1>
-                    <!-- Adicionar Equipes + JS -->
-        </section>
+                    
+        </section> 
+        -->
 
         <!-- Fórmulario de Aposta   -->
         <section  class="aposta">
@@ -126,7 +128,8 @@
                             <option value="8"> Jaguar Racing </option>
                             <option value="9"> Porsche Team </option>
                         </select>
-                </form> 
+                        <input class="btn-aposta" type="submit" value="Apostar">
+                    </form> 
             </div>
         </section>
 
@@ -153,6 +156,7 @@
                                 <option value="12"> Norman Nato </option>
                             </select>
 
+
                             <label for="aposta6">Qual piloto terminará mais vezes entre os três primeiros nesta temporada da Fórmula E?</label>
                             <select id="aposta6" name="aposta6">
                                 <option value="0">Selecione seu corredor ⭣ </option>
@@ -168,7 +172,8 @@
                                 <option value="10"> Antonio Felix da Costa </option>
                                 <option value="11"> Sébastien Buemi </option>
                                 <option value="12"> Norman Nato </option>
-                            </select>
+                            </select>   
+                            <input class="btn-aposta" type="submit" value="Apostar">
                         </form>
                 </div>
         </section>
@@ -187,8 +192,23 @@
         </section>
 
         <!-- Fórmulario de Contato-->
-
-    </div>
-    
+            <footer class="contato"> 
+                <h2> ENTRE EM CONTATO CONOSCO: </h2>
+                    <form class="form-contato">
+                        <input type="text" id="nome" name="nome" placeholder="DIGITE SEU NOME: ">
+                        <input type="email" id="email" name="email" placeholder="DIGITE SEU E-MAIL: ">
+                        <textarea id="mensagem" name="mensagem" placeholder="DIGITE SUA MENSAGEM: "></textarea>
+                    </form>
+                    <div> 
+                        <button class="btn-enviar">ENVIAR</button>
+                    </div>
+                    
+            <!-- Rodapé -->
+            <div class="rodape"> 
+                <p> © FIA 2013-2024 Todo o conteúdo sujeito à aprovação da FIA </p>
+                <p> © JYTHON 2024 - Todos os direitos são reservados à JYTHON </p>
+            </footer>
+    </div>    
+    <script src="/js/formula.js"></script>
 </body>
 </html>

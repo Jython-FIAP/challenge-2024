@@ -167,6 +167,24 @@ margin-bottom: 10px;
     appearance: none;
 }
 
+.btn-aposta {
+    background-color: #1D4280;
+    color: white;
+    padding: 10px 20px;
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px; 
+    cursor: pointer; 
+    border: none;
+    border-radius: 10px;
+}
+
+.btn-aposta:hover {
+    opacity: 0.5;
+}
+
+
 /* Conteúdo Sustentabilidade  */
 .sustentabilidade {
     font-size: 1.3rem;
@@ -185,4 +203,55 @@ margin-bottom: 10px;
     padding: 10px;
     border: 2px solid;
     margin-top: 20px;
+}
+
+/* Rodapé + Fórmulario de Contato */
+.contato {
+    background-color: var(--color-darkblue);
+    color: var(--color-white);
+} .contato h2 {
+    padding-top: 20px;
+    margin-left: 20px;
+} 
+
+
+.form-contato {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 10px;
+} .form-contato input{
+    background-color: #d2d1d1; 
+    color: var(--color-black);
+    padding: 10px;
+    border: 1px solid;
+}  .form-contato textarea {
+    background-color: #d2d1d1; 
+    border: 1px solid;
+    padding: 10px;
+} 
+
+.btn-enviar {
+    color: var(--color-white);
+    border: 2px solid var(--color-white); /* Adiciona uma borda branca */
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 16px; 
+    transition: background-color 0.3s, transform 0.3s; 
+    background-color: transparent; 
+    margin-left: 30px;
+}
+
+.btn-enviar:hover {
+    background-color: var(--color-dark-blue); 
+    transform: scale(1.1);
+}
+
+.rodape {
+    padding: 20px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
 }
