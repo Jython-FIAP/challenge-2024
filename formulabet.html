@@ -70,9 +70,9 @@
         <section  class="aposta">
             <div class="form-aposta"> 
                 <h2> Fórmula E - Equipes </h2>
-            </div> 
-            <div class="aposta-equipe"> 
-                <form> 
+            </div>
+            <div class="aposta-equipe">
+                <form id="form-equipe">
                     <label for="aposta1">Qual equipe vencerá o campeonato de construtores nesta temporada?</label>
                         <select id="aposta1" name="aposta1">
                             <option value="0">Selecione sua aposta ⭣</option>
@@ -137,45 +137,47 @@
             <div class="form-aposta"> 
                 <h2> Fórmula E - Pilotos </h2>
             </div>
-                <div class="aposta-equipe"> 
-                        <form> 
-                            <label for="aposta5">Qual piloto marcará a volta mais rápida em um circuito de rua nesta temporada da Fórmula E?</label>
-                            <select id="aposta5" name="aposta5">
-                                <option value="0">Selecione seu corredor ⭣ </option>
-                                <option value="1"> Jake Dennis </option>
-                                <option value="2"> Stoffel Vandoorne </option>
-                                <option value="3"> Sergio Camara </option>
-                                <option value="4"> Robin Frijns </option>
-                                <option value="5"> Jake Hughes </option>
-                                <option value="6"> Maximilian Gunther </option>
-                                <option value="7"> Lucas di Grassi </option>
-                                <option value="8"> Mitch Evans </option>
-                                <option value="9"> Sam Bird </option>
-                                <option value="10"> Antonio Felix da Costa </option>
-                                <option value="11"> Sébastien Buemi </option>
-                                <option value="12"> Norman Nato </option>
-                            </select>
+            <div class="aposta-equipe">
+                <form id="form-piloto">
+                    <label for="aposta5">Qual piloto marcará a volta mais rápida em um circuito de rua nesta temporada
+                        da Fórmula E?</label>
+                    <select id="aposta5" name="aposta5">
+                        <option value="0">Selecione seu corredor ⭣</option>
+                        <option value="1"> Jake Dennis</option>
+                        <option value="2"> Stoffel Vandoorne</option>
+                        <option value="3"> Sergio Camara</option>
+                        <option value="4"> Robin Frijns</option>
+                        <option value="5"> Jake Hughes</option>
+                        <option value="6"> Maximilian Gunther</option>
+                        <option value="7"> Lucas di Grassi</option>
+                        <option value="8"> Mitch Evans</option>
+                        <option value="9"> Sam Bird</option>
+                        <option value="10"> Antonio Felix da Costa</option>
+                        <option value="11"> Sébastien Buemi</option>
+                        <option value="12"> Norman Nato</option>
+                    </select>
 
 
-                            <label for="aposta6">Qual piloto terminará mais vezes entre os três primeiros nesta temporada da Fórmula E?</label>
-                            <select id="aposta6" name="aposta6">
-                                <option value="0">Selecione seu corredor ⭣ </option>
-                                <option value="1"> Jake Dennis </option>
-                                <option value="2"> Stoffel Vandoorne </option>
-                                <option value="3"> Sergio Camara </option>
-                                <option value="4"> Robin Frijns </option>
-                                <option value="5"> Jake Hughes </option>
-                                <option value="6"> Maximilian Gunther </option>
-                                <option value="7"> Lucas di Grassi </option>
-                                <option value="8"> Mitch Evans </option>
-                                <option value="9"> Sam Bird </option>
-                                <option value="10"> Antonio Felix da Costa </option>
-                                <option value="11"> Sébastien Buemi </option>
-                                <option value="12"> Norman Nato </option>
-                            </select>   
-                            <input class="btn-aposta" type="submit" value="Apostar">
-                        </form>
-                </div>
+                    <label for="aposta6">Qual piloto terminará mais vezes entre os três primeiros nesta temporada da
+                        Fórmula E?</label>
+                    <select id="aposta6" name="aposta6">
+                        <option value="0">Selecione seu corredor ⭣</option>
+                        <option value="1"> Jake Dennis</option>
+                        <option value="2"> Stoffel Vandoorne</option>
+                        <option value="3"> Sergio Camara</option>
+                        <option value="4"> Robin Frijns</option>
+                        <option value="5"> Jake Hughes</option>
+                        <option value="6"> Maximilian Gunther</option>
+                        <option value="7"> Lucas di Grassi</option>
+                        <option value="8"> Mitch Evans</option>
+                        <option value="9"> Sam Bird</option>
+                        <option value="10"> Antonio Felix da Costa</option>
+                        <option value="11"> Sébastien Buemi</option>
+                        <option value="12"> Norman Nato</option>
+                    </select>
+                    <input class="btn-aposta" type="submit" value="Apostar">
+                </form>
+            </div>
         </section>
 
         <!-- Programa de Sustentabilidade -->
@@ -194,19 +196,21 @@
         <!-- Fórmulario de Contato-->
             <footer class="contato"> 
                 <h2> ENTRE EM CONTATO CONOSCO: </h2>
-                    <form class="form-contato">
-                        <input type="text" id="nome" name="nome" placeholder="DIGITE SEU NOME: ">
-                        <input type="email" id="email" name="email" placeholder="DIGITE SEU E-MAIL: ">
-                        <textarea id="mensagem" name="mensagem" placeholder="DIGITE SUA MENSAGEM: "></textarea>
-                    </form>
-                    <div> 
-                        <button class="btn-enviar">ENVIAR</button>
+                <form class="form-contato" id="form-contato">
+                    <input type="text" id="nome" name="nome" placeholder="DIGITE SEU NOME: " required>
+                    <input type="email" id="email" name="email" placeholder="DIGITE SEU E-MAIL: " required>
+                    <textarea id="mensagem" name="mensagem" placeholder="DIGITE SUA MENSAGEM: " required></textarea>
+                    <div>
+                        <button class="btn-enviar" id="btn-contato">ENVIAR</button>
                     </div>
-                    
-            <!-- Rodapé -->
-            <div class="rodape"> 
-                <p> © FIA 2013-2024 Todo o conteúdo sujeito à aprovação da FIA </p>
-                <p> © JYTHON 2024 - Todos os direitos são reservados à JYTHON </p>
+                </form>
+
+
+                <!-- Rodapé -->
+                <div class="rodape">
+                    <p> © FIA 2013-2024 Todo o conteúdo sujeito à aprovação da FIA </p>
+                    <p> © JYTHON 2024 - Todos os direitos são reservados à JYTHON </p>
+                </div>
             </footer>
     </div>    
     <script src="/js/formula.js"></script>

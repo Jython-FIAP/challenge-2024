@@ -35,7 +35,7 @@ p {
 
 .container {
     margin: 0 auto;
-    padding: 0 auto;
+    padding: 0;
 }
 
 /*  CABEÇALHO  */ 
@@ -123,7 +123,7 @@ p {
     padding: 20px; /* aumenta o espaçamento interno para 20px */
     margin: 20px;   
 } .conteudo-principal-aposta li {
-    margin: 10px 0; /
+    margin: 10px 0;
 }
 .texto-sabia {
     font-weight: 900;
@@ -239,13 +239,12 @@ margin-bottom: 10px;
     cursor: pointer;
     margin-top: 10px;
     font-size: 16px; 
-    transition: background-color 0.3s, transform 0.3s; 
+    transition: transform 0.3s;
     background-color: transparent; 
     margin-left: 30px;
 }
 
 .btn-enviar:hover {
-    background-color: var(--color-dark-blue); 
     transform: scale(1.1);
 }
 
@@ -254,4 +253,9 @@ margin-bottom: 10px;
     margin-top: 30px;
     display: flex;
     justify-content: space-between;
+}
+
+#btn-contato {
+    margin-left: 0;
+    margin-top: 20px;
 }
