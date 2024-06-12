@@ -245,7 +245,7 @@ margin-bottom: 10px;
 }
 
 .btn-enviar:hover {
-    background-color: var(--color-dark-blue); 
+    background-color: var(--color-darkblue);
     transform: scale(1.1);
 }
 
