@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Camada_2" data-name="Camada 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1442.51 242">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 70px;
+      }
+
+      .cls-1, .cls-2 {
+        fill: #fff;
+        font-family: Mirza-Bold, Mirza;
+        font-weight: 700;
+      }
+
+      .cls-2 {
+        font-size: 35px;
+      }
+    </style>
+  </defs>
+  <g id="Camada_4" data-name="Camada 4">
+    <text class="cls-1" transform="translate(4 113.72) scale(1.05 1)"><tspan x="0" y="0" xml:space="preserve">2024  SHANGHAI E-PRIX</tspan></text>
+    <text class="cls-2" transform="translate(0 195.82) scale(.93 1)"><tspan x="0" y="0">Fique ligado! Nossa próxima corrida chega em breve!</tspan></text>
+  </g>
+</svg>
