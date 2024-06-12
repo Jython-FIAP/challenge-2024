@@ -239,13 +239,12 @@ margin-bottom: 10px;
     cursor: pointer;
     margin-top: 10px;
     font-size: 16px; 
-    transition: background-color 0.3s, transform 0.3s; 
+    transition: transform 0.3s;
     background-color: transparent; 
     margin-left: 30px;
 }
 
 .btn-enviar:hover {
-    background-color: var(--color-darkblue);
     transform: scale(1.1);
 }
 
