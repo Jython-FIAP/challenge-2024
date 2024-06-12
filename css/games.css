@@ -112,7 +112,7 @@ p {
 
 /* Ínicio Propaganda */
 .propaganda {
-    background-image: url(../img/propaganda.png);
+    background-image: url("../svg/Degrade\ background.svg");
     background-size: cover;
     position: relative;
     height: 600px;
