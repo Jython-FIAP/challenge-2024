@@ -254,3 +254,8 @@ margin-bottom: 10px;
     display: flex;
     justify-content: space-between;
 }
+
+#btn-contato {
+    margin-left: 0;
+    margin-top: 20px;
+}
