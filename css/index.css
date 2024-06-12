@@ -79,8 +79,29 @@ p {
 
 /* ÍNICO SLIDE-SHOW */
 
-.slide-show img {
+.slide-show {
+    position: relative;
+    height: 600px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.slide-show img, .svg {
     width: 100%;
+}
+
+.svg{
+    position: absolute;
+    top: 25%;
+    left: 0;
+
+}
+.sdt{
+    max-width: 90%;
+    position: absolute;
+    bottom: 15%;
+    left: 3%;
 }
 
 /* FIM SLIDE-SHOW */
