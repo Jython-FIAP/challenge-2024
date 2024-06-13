@@ -8,7 +8,7 @@
 
       .cls-1, .cls-2 {
         fill: #fff;
-        font-family: Mirza-Bold, Mirza;
+        font-family: Mirza,sans-serif;
         font-weight: 700;
       }
 
