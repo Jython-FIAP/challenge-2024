@@ -153,8 +153,10 @@ h2 {
     border-radius: 20px;
     margin: 15% auto; /* 15% do topo e centralizado */
     padding: 20px;
-    /* width: 400px; */
     }
+#bet{
+    width: 400px;
+}
 .modal-conteudo>p{
     width: 350px;
 }
