@@ -27,7 +27,7 @@ var span2 = document.getElementsByClassName("close")[1]; // Observe que estamos 
 
 // Quando o usuário clicar no botão, abrir o modal 
 btn2.onclick = function() {
-  modal2.style.display = "block";
+  modal2.style.display = "flex";
 }
 
 // Quando o usuário clicar em <span> (x), fechar o modal
