@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Camada_2" data-name="Camada 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1662 243">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 70px;
+      }
+
+      .cls-1, .cls-2 {
+        fill: #fff;
+        font-family: Mirza-Bold, Mirza;
+        font-weight: 700;
+      }
+
+      .cls-2 {
+        font-size: 35px;
+      }
+    </style>
+  </defs>
+  <g id="Camada_4" data-name="Camada 4">
+    <text class="cls-1" transform="translate(0 113.72) scale(1.05 1)"><tspan x="0" y="0">VOCÊ CONHECE A FÓRMULA E?</tspan></text>
+    <text class="cls-2" transform="translate(22 196.82) scale(.93 1)"><tspan x="0" y="0">Deslize o mouse para baixo, e conheça essa história!!</tspan></text>
+  </g>
+</svg>
