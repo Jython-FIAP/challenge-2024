@@ -4,17 +4,19 @@
     <style>
     @import url("https://fonts.googleapis.com/css2?family=Mirza:wght@400;500;600;700");
       .cls-1 {
-        font-family: Mirza-Bold, Mirza;
+        font-family: Mirza,sans-serif;
         font-size: 119.45px;
         font-weight: 700;
       }
 
       .cls-1, .cls-2 {
         fill: #fff;
+        font-size:5rem;
       }
 
       .cls-2 {
-        stroke-width: 0px;
+        font-size:3rem;
+
       }
     </style>
   </defs>

@@ -9,16 +9,18 @@
 
       .cls-1, .cls-2, .cls-3 {
         fill: #fff;
-        font-family: Mirza-Bold, Mirza;
+       font-family: Mirza,sans-serif;
         font-weight: 700;
+        font-size: 5rem;
       }
 
       .cls-2 {
-        font-size: 123.45px;
+        font-size: 5rem;
+        line-height:3em;
       }
 
       .cls-3 {
-        font-size: 73.04px;
+        font-size: 3rem;
       }
     </style>
   </defs>
