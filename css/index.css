@@ -345,12 +345,12 @@ p {
     margin-top: 50px;
     padding: 10px; 
     margin-left: 30px;
-} .formula h1 {
-    font-size: 1.9rem;
-    
 } .formula a {
     color: var(--color-blue);
     font-weight: 900;
+} .formula h1 a{
+    font-size: 1.9rem;
+    color: var(--color-darkblue);
 }
 
 
